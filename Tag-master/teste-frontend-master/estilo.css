@@ -88,9 +88,41 @@ body {
      display: block;
     margin:  0 auto;    
     max-width: 980px;
+    margin-top: 0px;
 
     }
 .imagens img{
 
-    max-width: 323px;
+    max-width: 300px;
+    position: relative;
+    }
+
+ @media screen and (max-width: 980px){
+.propaganda{
+display: none;
+}
+}    
+
+.propaganda img{
+    max-width: 300px;
+    }
+
+@media screen and (max-width: 980px){
+      .imagens1 img{
+        width: 32%;
+        
+        }
+    }
+.imagens1{
+    
+     display: block;
+    margin:  0 auto;    
+    max-width: 980px;
+    margin-top: 0px;
+
+    }
+.imagens1 img{
+
+    max-width: 300px;
+    position: relative;
     }
